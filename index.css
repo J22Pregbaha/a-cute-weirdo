@@ -25,6 +25,21 @@ main {
 	margin: 10vh 10vw;
 }
 
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 0.2%;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
 .social a {
 	margin-right: 0.6em;
 }
