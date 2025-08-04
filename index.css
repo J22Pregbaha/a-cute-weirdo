@@ -294,11 +294,17 @@ tr:nth-child(even) {
 
 .screenplay-card {
 	display: flex;
+  justify-content: space-between;
 	gap: 1rem;
 	align-items: start;
 	padding: 1rem;
 	border-bottom: 1px solid #ddd;
 	background: #fff;
+}
+
+.screenplay-info {
+  display: flex;
+  gap: 1rem;
 }
 
 .screenplay-card:last-child {
@@ -353,7 +359,7 @@ tr:nth-child(even) {
 }
 
 @media (max-width: 600px) {
-	.screenplay-card {
+	.screenplay-card, .screenplay-info {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
